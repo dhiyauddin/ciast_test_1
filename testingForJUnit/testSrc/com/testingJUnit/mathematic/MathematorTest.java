@@ -44,10 +44,10 @@ public class MathematorTest {
 	@Test
 	public void testMultiply() {
 		// java multiply it up!
-		long result = 2 * 3 * 3 * 4 * 5 * 6;
+		long result = 2 * 3 * 3 * 4 * 5 ;
 		
 		// compare with Mathemator
-		assertEquals(result, classUnderTest.multiply(2, 3, 3, 4, 5, 6));
+		assertEquals(result, classUnderTest.multiply(2, 3, 3, 4, 5));
 		
 		result = 0;
 		assertEquals(result, classUnderTest.multiply(0, 0, 0, 0));
