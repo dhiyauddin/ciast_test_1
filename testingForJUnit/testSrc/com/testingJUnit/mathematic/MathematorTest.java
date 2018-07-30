@@ -17,10 +17,10 @@ public class MathematorTest {
 	@Test
 	public void testSubstraction() {
 		// java substract it down!
-		long result = 100 - 56 - (-12) - 10;
+		long result = 100 - 56 - (-12) - 5;
 		
 		//compare with Mathemator;
-		assertEquals(result , classUnderTest.substraction(100, 56, -12, 10));
+		assertEquals(result , classUnderTest.substraction(100, 56, -12, 5));
 		
 		result = 0;
 		assertEquals(result, classUnderTest.substraction(0));
